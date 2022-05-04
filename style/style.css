@@ -208,11 +208,11 @@ header ul li:last-child {
 }
 
 .label {
-  /* width: auto; */
+  width: 140px;
   padding: 9px 10px 10px 2px;
   background-color: #ffffff;
   border-radius: 14px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 
   font-family: "Poppins";
@@ -283,7 +283,7 @@ header ul li:last-child {
   margin: auto;
 }
 
-.tools_info span {
+.tools_info span:first-of-type {
   margin-bottom: 6px;
 
   font-family: "Poppins";
